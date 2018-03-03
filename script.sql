@@ -108,8 +108,8 @@ RETURN Types.ref_cursor
 
 --PRUEBAS-----------------------
 insert into tipo values('animales',5);
-exec insertarProducto('111','perro',555,0,'animales');
-exec insertarProducto('222','perro',123,1,'animales');
-select buscarProductoPorNombre('perro') from dual;
-select buscarProductoPorTipo('animales') from dual;
-select listarProductos() from dual;
+exec insertarProducto('111','coca',555,0,'popular');
+exec insertarProducto('222','leche',123,1,'canasta basica');
+--select buscarProductoPorNombre('perro') from dual;
+--select buscarProductoPorTipo('animales') from dual;
+--select listarProductos() from dual;
